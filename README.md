@@ -14,6 +14,10 @@
 
 ## Notes
 
+- Setup Pages.
+- Setup Navbar.
+- Setup Navigation between pages.
+- Setup up initial state of each page type.
 - Arguments will be accepted through a form.
   - The form fields will need to be validated.
 - Submit button to submit the form and execute the function.
