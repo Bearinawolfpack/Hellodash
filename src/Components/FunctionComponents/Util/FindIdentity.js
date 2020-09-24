@@ -3,6 +3,10 @@ import { Container } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
+const Identity = (value) => {
+  return <h4>{value}</h4>;
+};
+
 class FindIdentity extends React.Component {
   state = {
     showResult: false,
@@ -10,11 +14,6 @@ class FindIdentity extends React.Component {
   };
 
   render() {
-    const Identity = (value) => {
-      console.log(value);
-      return <h4>{value}</h4>;
-    };
-
     const submitHandler = (event) => {
       event.preventDefault();
       this.setState({ showResult: true });
@@ -27,8 +26,6 @@ class FindIdentity extends React.Component {
     const changeHandler = (event) => {
       this.setState({ [event.target.name]: event.target.value });
     };
-
-    const showResult = this.state.showResult;
 
     return (
       <Container>
@@ -59,6 +56,7 @@ class FindIdentity extends React.Component {
 }
 
 export default FindIdentity;
+export { Identity };
 
 // Description: This method returns the first argument it receives.
 // Arguments: 1. value (*): Any value.
