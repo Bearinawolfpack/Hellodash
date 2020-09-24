@@ -2,7 +2,7 @@ import React from 'react';
 
 class FindIdentity extends React.Component {
   state = {
-    stateComponent: false,
+    showResult: false,
   };
 
   render() {
@@ -10,13 +10,14 @@ class FindIdentity extends React.Component {
       return 'This is the identity function';
     };
 
-    const clickHandler = () => {
+    const submitHandler = (event) => {
+      event.prevent
       Identity();
     };
 
     return (
       <div>
-        <button type="button" onClick={() => clickHandler}>
+        <button type="submit" onClick={submitHandler}>
           Identity
         </button>
         <p>{Identity()}</p>

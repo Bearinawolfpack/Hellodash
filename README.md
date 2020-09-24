@@ -2,7 +2,7 @@
 
 ## About
 
-- This is a personal project with the purpose of challenging my coding abilities. The idea to recreate the Lodash library functions and tests for my own personal use. I hope to become better at unit testing, code challenges, and refactoring through this project.
+- This is a personal project with the purpose of challenging my coding abilities. The idea is to have a web app that will visually demo all of the Lodash functions.
 
 ## Building Blocks
 
@@ -11,3 +11,15 @@
 - ESLint/Airbnb, Prettier[Config](https://github.com/paulolramos/eslint-prettier-airbnb-react)
 
 ## Resources
+
+## Notes
+
+- Setup Pages.
+- Setup Navbar.
+- Setup Navigation between pages.
+- Setup up initial state of each page type.
+- Arguments will be accepted through a form.
+  - The form fields will need to be validated.
+- Submit button to submit the form and execute the function.
+- Reset button should clear the form and the displayed result (if any).
+- Results from the function should be displayed.
