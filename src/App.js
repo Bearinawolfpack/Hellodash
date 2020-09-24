@@ -1,9 +1,16 @@
 import React from 'react';
+import './App.css';
+
+import Home from './Components/AppComponents/Home';
+import NavigationBar from './Components/AppComponents/Navbar';
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <NavigationBar />
+      <div>
+        <Home />
+      </div>
     </>
   );
 }
