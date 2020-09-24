@@ -11,7 +11,6 @@ class FindIdentity extends React.Component {
     };
 
     const submitHandler = (event) => {
-      event.prevent
       Identity();
     };
 

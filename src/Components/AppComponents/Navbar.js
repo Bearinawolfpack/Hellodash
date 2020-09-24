@@ -59,7 +59,7 @@ const NavigationBar = () => {
           </NavDropdown>
 
           <NavDropdown title="Util" id="basic-nav-dropdown">
-            <NavDropdown.Item href="">Functions TBA</NavDropdown.Item>
+            <NavDropdown.Item href="/util/identity">Identity</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
