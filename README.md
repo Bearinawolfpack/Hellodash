@@ -23,3 +23,7 @@
 - Submit button to submit the form and execute the function.
 - Reset button should clear the form and the displayed result (if any).
 - Results from the function should be displayed.
+
+## TODO
+
+- Change dropdown alignment of NavBar [ ]
